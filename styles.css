@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #212121;
+}
+
+body {
+    height: 100%;
+}
+
+.title {
+    max-width: 700px;
+    min-width: 200px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.title h1 {
+    background-color: rgba(224, 224, 224, .7);
+    text-align: center;
+    padding: 2px;
+}
+
+.map-figure {
+    display: relative;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.map-key {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    border: 3px solid rgba(224, 224, 224, 1)
+}
+
+.key-title {
+    background-color: rgba(224, 224, 224, .7);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.item-one {
+    background-color: #FFF5EE;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-two {
+    background-color: #FAD6A5;
+    width: 20%;
+}
+
+.item-three {
+    background-color: #FFB347;
+    width: 20%;
+}
+
+.item-four {
+    background-color: #FF8C00;
+    width: 20%;
+}
+
+.item-five {
+    background-color: #996515;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-one h3 {
+    text-align: center;
+}
+
+.item-five h3 {
+    text-align: center;
+}
+
+
+
